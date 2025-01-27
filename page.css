@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: rgba(191, 214, 196, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem;
+    height: 5rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Adjust this value based on the height of your nav bar */
+}
+
+section {
+    padding: 8rem 2rem;
+    min-height: 80vh; /* Reduce the default minimum height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    /* margin-bottom: 10px; */
+}
+
+.heart {
+    color: red;
+}
+
+.image_1 {
+    width: 20%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.container_1{
+    width: 500px;
+}
+
+p {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.text_2024 {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    font-family: 'Courgette', cursive;
+}
+
+.text_2023 {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    font-family: 'Courgette', cursive;
+}
+
+.recap_2024_text{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    font-family: 'Courgette', cursive;
+}
+
+.from_Janice_text {
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.image_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.image_3 {
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image_4 {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.link_and_pdf {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e63946;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link_and_pdf:hover {
+    background-color: #d62828;
+}
+
+
+.months_pic{
+    display: block;
+}
+
+.month_word{
+    font-family: 'Dancing Script';
+    text-align: left;
+}
+
+.month_pic_row{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+
+.one_pic{
+    margin-right: 50px;
+}
+
+.two_details_column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testing {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details_text_column {
+    grid-column: span 2; 
+    margin-top: 10px;
+}
+
+.details_text {
+    margin: 5px 0;
+    text-align: left;
+    font-size: 1em;
+}
+
+.future_plans p {
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6em;
+}
+
+.love_text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6em;
+}
+
+.ending_text {
+    font-family: 'Courgette', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+@media (max-width: 480px) {
+    .image_1 {
+        width: 100%; 
+    }
+
+    section {
+        padding: 5rem 1rem;
+    }
+
+    nav {
+        padding: 10 10rem;
+    }
+}
